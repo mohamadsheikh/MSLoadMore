@@ -34,6 +34,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     // example of pushing objects to data model, can come from server.
     func loadMoreData() {
+        // we make sure if table is already loading more data.
         if isLoadMore {
             
             // we fetch data (aka from a server or database).
