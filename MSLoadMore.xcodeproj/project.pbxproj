@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1D10B71F6D3251002128B9 /* LoadMoreFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1D10B61F6D3251002128B9 /* LoadMoreFooter.xib */; };
+		CD1D10BA1F6D325F002128B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1D10B81F6D325F002128B9 /* Main.storyboard */; };
+		CD1D10BC1F6D32AB002128B9 /* SampleDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D10BB1F6D32AB002128B9 /* SampleDataGenerator.swift */; };
 		CD56A6871F6D318A0003E4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD56A6861F6D318A0003E4D5 /* AppDelegate.swift */; };
 		CD56A6891F6D318A0003E4D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD56A6881F6D318A0003E4D5 /* ViewController.swift */; };
-		CD56A68C1F6D318A0003E4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56A68A1F6D318A0003E4D5 /* Main.storyboard */; };
 		CD56A68E1F6D318A0003E4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD56A68D1F6D318A0003E4D5 /* Assets.xcassets */; };
 		CD56A6911F6D318A0003E4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD56A68F1F6D318A0003E4D5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1D10B61F6D3251002128B9 /* LoadMoreFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadMoreFooter.xib; path = "../../../Dev/Sample codes/LoadMore Sample swift 3/testSamples/LoadMoreFooter.xib"; sourceTree = "<group>"; };
+		CD1D10B91F6D325F002128B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Dev/Sample codes/LoadMore Sample swift 3/testSamples/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CD1D10BB1F6D32AB002128B9 /* SampleDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataGenerator.swift; sourceTree = "<group>"; };
 		CD56A6831F6D318A0003E4D5 /* MSLoadMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSLoadMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD56A6861F6D318A0003E4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD56A6881F6D318A0003E4D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD56A68B1F6D318A0003E4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD56A68D1F6D318A0003E4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD56A6901F6D318A0003E4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD56A6921F6D318A0003E4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +60,9 @@
 			children = (
 				CD56A6861F6D318A0003E4D5 /* AppDelegate.swift */,
 				CD56A6881F6D318A0003E4D5 /* ViewController.swift */,
-				CD56A68A1F6D318A0003E4D5 /* Main.storyboard */,
+				CD1D10BB1F6D32AB002128B9 /* SampleDataGenerator.swift */,
+				CD1D10B61F6D3251002128B9 /* LoadMoreFooter.xib */,
+				CD1D10B81F6D325F002128B9 /* Main.storyboard */,
 				CD56A68D1F6D318A0003E4D5 /* Assets.xcassets */,
 				CD56A68F1F6D318A0003E4D5 /* LaunchScreen.storyboard */,
 				CD56A6921F6D318A0003E4D5 /* Info.plist */,
@@ -124,8 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD56A6911F6D318A0003E4D5 /* LaunchScreen.storyboard in Resources */,
+				CD1D10B71F6D3251002128B9 /* LoadMoreFooter.xib in Resources */,
 				CD56A68E1F6D318A0003E4D5 /* Assets.xcassets in Resources */,
-				CD56A68C1F6D318A0003E4D5 /* Main.storyboard in Resources */,
+				CD1D10BA1F6D325F002128B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,16 +145,17 @@
 			files = (
 				CD56A6891F6D318A0003E4D5 /* ViewController.swift in Sources */,
 				CD56A6871F6D318A0003E4D5 /* AppDelegate.swift in Sources */,
+				CD1D10BC1F6D32AB002128B9 /* SampleDataGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD56A68A1F6D318A0003E4D5 /* Main.storyboard */ = {
+		CD1D10B81F6D325F002128B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD56A68B1F6D318A0003E4D5 /* Base */,
+				CD1D10B91F6D325F002128B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -262,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MSLoadMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mohamad-Sheikh.MSLoadMore";
+				PRODUCT_BUNDLE_IDENTIFIER = MohamadSheikh.MSLoadMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +285,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MSLoadMore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Mohamad-Sheikh.MSLoadMore";
+				PRODUCT_BUNDLE_IDENTIFIER = MohamadSheikh.MSLoadMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -301,6 +315,7 @@
 				CD56A6971F6D318A0003E4D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
